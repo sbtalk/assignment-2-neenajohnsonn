@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: jpa
+  datasource:
+    url: jdbc:mysql://localhost:3307/training
+    username: root
+    password: root
+    jpa:
+      show_sql: true
+server:
+    port: 7074
